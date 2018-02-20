@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BaseOpenGL">
+      <UniqueIdentifier>{7fe9813c-bfb5-4451-bfa4-ebae93fa9087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BaseOpenGL">
+      <UniqueIdentifier>{be118d2b-ab47-4dc7-a845-5bf8d9280fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pacman">
+      <UniqueIdentifier>{78419e9e-7cc3-4c8b-9b22-f11ab8a20572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pacman">
+      <UniqueIdentifier>{eb08d10f-abf8-4bbf-aaf7-0f42c809954d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameControl.cpp">
+      <Filter>Source Files\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCharacter.cpp">
+      <Filter>Source Files\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Source Files\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ogl.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="quaternion.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Source Files\BaseOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCharacterGhost.cpp">
+      <Filter>Source Files\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCharacterPacman.cpp">
+      <Filter>Source Files\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.cpp">
+      <Filter>Source Files\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicData.cpp">
+      <Filter>Source Files\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="PacDot.cpp">
+      <Filter>Source Files\Pacman</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameControl.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCharacter.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ogl.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Header Files\BaseOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCharacterGhost.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCharacterPacman.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicData.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="PacDot.h">
+      <Filter>Header Files\Pacman</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
